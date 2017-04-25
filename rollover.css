@@ -1,0 +1,21 @@
+a {
+	text-decoration: none;
+	position: absolute;
+	z-index: 99;
+	  -webkit-transition: all 4s ease;
+     -moz-transition: all 4s ease;
+       -o-transition: all 4s ease;
+      -ms-transition: all 4s ease;
+          transition: all 4s ease;
+}	
+
+.image {
+	text-align: center;
+	width: 100%;
+	    -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
